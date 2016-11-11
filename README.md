@@ -56,7 +56,9 @@ This algorithm is derive from bidirectional BFS, and it will significantly reduc
 In this implementation, there are 2 libirary need to be added: Opencsv and Common-lang, both of these .jar files are stored in the /src folder and will be automatically added by 'run.sh'
 
 In the /paymo_input folder, there are two files: batch_payments.txt and stream_payments.txt, both of files can be replaced by same name files (please note that it has to be .txt file, if it's .csv file, simply change the extend to .txt). These two files are my simplified test cases.
+<img src="./images/testcase.png" width="800">
 
 To check the result, execute the run_test.sh in /insight_testsuit directory.
+
 
 
